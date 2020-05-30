@@ -1,0 +1,24 @@
+CREATE TABLE GCP(
+   name                                                                 VARCHAR(200) 
+  ,skuId                                                                VARCHAR(200) NULL PRIMARY KEY
+  ,description                                                          VARCHAR(200) 
+  ,categoryserviceDisplayName                                           VARCHAR(200) 
+  ,categoryresourceFamily                                               VARCHAR(200) 
+  ,categoryresourceGroup                                                VARCHAR(200) 
+  ,categoryusageType                                                    VARCHAR(200) 
+  ,serviceRegions0                                                      VARCHAR(200) 
+  ,pricingInfo0summary                                                  VARCHAR(200)
+  ,pricingInfo0pricingExpressionusageUnit                               VARCHAR(200) 
+  ,pricingInfo0pricingExpressionusageUnitDescription                    VARCHAR(200) 
+  ,pricingInfo0pricingExpressionbaseUnit                                VARCHAR(200) 
+  ,pricingInfo0pricingExpressionbaseUnitDescription                     VARCHAR(200) 
+  ,pricingInfo0pricingExpressionbaseUnitConversionFactor                LONG  
+  ,pricingInfo0pricingExpressiondisplayQuantity                         INTEGER  
+  ,pricingInfo0pricingExpressiontieredRates0startUsageAmount            INTEGER  
+  ,pricingInfo0pricingExpressiontieredRates0unitPricecurrencyCode       VARCHAR(200) 
+  ,pricingInfo0pricingExpressiontieredRates0unitPriceunits              VARCHAR(100)  
+  ,pricingInfo0pricingExpressiontieredRates0unitPricenanos              LONG  
+  ,pricingInfo0currencyConversionRate                                   INTEGER 
+  ,pricingInfo0effectiveTime                                            VARCHAR(200) 
+  ,serviceProviderName                                                  VARCHAR(200) 
+);
