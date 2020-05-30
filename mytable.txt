@@ -1,0 +1,24 @@
+CREATE TABLE mytable(
+   name                                                                 VARCHAR(43) 
+  ,skuId                                                                VARCHAR(30) NULL PRIMARY KEY
+  ,description                                                          VARCHAR(100) 
+  ,categoryserviceDisplayName                                           VARCHAR(100) 
+  ,categoryresourceFamily                                               VARCHAR(100) 
+  ,categoryresourceGroup                                                VARCHAR(100) 
+  ,categoryusageType                                                    VARCHAR(100) 
+  ,serviceRegions0                                                      VARCHAR(100) 
+  ,pricingInfo0summary                                                  VARCHAR(100)
+  ,pricingInfo0pricingExpressionusageUnit                               VARCHAR(100) 
+  ,pricingInfo0pricingExpressionusageUnitDescription                    VARCHAR(100) 
+  ,pricingInfo0pricingExpressionbaseUnit                                VARCHAR(100) 
+  ,pricingInfo0pricingExpressionbaseUnitDescription                     VARCHAR(100) 
+  ,pricingInfo0pricingExpressionbaseUnitConversionFactor                INTEGER  
+  ,pricingInfo0pricingExpressiondisplayQuantity                         BIT  
+  ,pricingInfo0pricingExpressiontieredRates0startUsageAmount            BIT  
+  ,pricingInfo0pricingExpressiontieredRates0unitPricecurrencyCode       VARCHAR(30) 
+  ,pricingInfo0pricingExpressiontieredRates0unitPriceunits              BIT  
+  ,pricingInfo0pricingExpressiontieredRates0unitPricenanos              INTEGER  
+  ,pricingInfo0currencyConversionRate                                   BIT  
+  ,pricingInfo0effectiveTime                                            VARCHAR(100) 
+  ,serviceProviderName                                                  VARCHAR(30) 
+);
